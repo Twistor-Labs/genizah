@@ -1,0 +1,16 @@
+{
+  "name": "genizah",
+  "owner": {
+    "name": "Twistor Labs",
+    "email": "hello@twistorlabs.com"
+  },
+  "description": "Genizah from Twistor Labs: free up disk space without losing what matters.",
+  "plugins": [
+    {
+      "name": "genizah",
+      "source": "./plugins/genizah",
+      "description": "Free up disk space on Mac, Windows or Linux. Looks first, asks before anything personal, sends it to the Trash, and warns before anything important.",
+      "category": "productivity"
+    }
+  ]
+}

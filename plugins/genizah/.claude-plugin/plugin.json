@@ -1,0 +1,15 @@
+{
+  "name": "genizah",
+  "displayName": "Genizah",
+  "version": "1.0.0",
+  "description": "Free up disk space on Mac, Windows or Linux without losing what matters. Looks first, asks before anything personal, sends it to the Trash, and warns before anything important.",
+  "author": {
+    "name": "Twistor Labs",
+    "email": "hello@twistorlabs.com",
+    "url": "https://twistorlabs.com"
+  },
+  "homepage": "https://genizah.twistorlabs.com",
+  "repository": "https://github.com/Twistor-Labs/genizah",
+  "license": "MIT",
+  "keywords": ["disk space", "cleanup", "storage", "macos", "windows", "linux"]
+}
