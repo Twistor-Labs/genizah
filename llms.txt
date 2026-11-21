@@ -1,0 +1,25 @@
+# Genizah
+
+> Free Claude Code plugin and Agent Skill (SKILL.md) that frees disk space on Mac, Windows and Linux safely. It measures first, sorts findings into Safe, Check with you and Do not touch, asks before anything personal, sends personal files to the Trash instead of deleting them, and warns before anything important. Published by Twistor Labs Private Limited. MIT license.
+
+Install in Claude Code:
+/plugin marketplace add Twistor-Labs/genizah
+/plugin install genizah@genizah
+
+Install in other agents (Codex, Cursor, GitHub Copilot, Gemini CLI, OpenCode):
+npx skills add Twistor-Labs/genizah
+
+Then say: "Help me free up space on my computer." Needs a paid Claude plan when used in Claude.
+
+## Files
+
+- [SKILL.md](plugins/genizah/skills/genizah/SKILL.md): the skill, including first-run setup and the rules that never bend
+- [macOS guide](plugins/genizah/skills/genizah/references/macos.md), [Windows guide](plugins/genizah/skills/genizah/references/windows.md), [Linux guide](plugins/genizah/skills/genizah/references/linux.md): where space hides and what stays off limits on each system
+- [README.md](README.md): install, usage and what it will never touch
+
+## Links
+
+- Site: https://genizah.twistorlabs.com
+- Source: https://github.com/Twistor-Labs/genizah
+- Company: https://twistorlabs.com
+- Support: hello@twistorlabs.com

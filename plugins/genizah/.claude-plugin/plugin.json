@@ -11,5 +11,18 @@
   "homepage": "https://genizah.twistorlabs.com",
   "repository": "https://github.com/Twistor-Labs/genizah",
   "license": "MIT",
-  "keywords": ["disk space", "cleanup", "storage", "macos", "windows", "linux"]
+  "keywords": [
+    "disk space",
+    "cleanup",
+    "storage",
+    "macos",
+    "windows",
+    "linux",
+    "free up disk space",
+    "disk cleanup",
+    "low disk space",
+    "clear cache",
+    "agent-skills",
+    "claude-code"
+  ]
 }
