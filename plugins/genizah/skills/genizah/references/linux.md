@@ -57,6 +57,13 @@ These need `sudo`. Never run one without asking, saying exactly what it does and
 | Restore an item from the Trash | `gio trash --restore "trash:///<item>"` (back to its original folder; `gio list trash:///` shows names) |
 | Empty Trash (⚠️ permanent) | `gio trash --empty` |
 
+`gio list`, `--restore` and `--empty` need gvfs, which minimal and server installs often lack ("Operation not supported"); `gio trash` itself still works. Then use the Trash folder directly:
+| Job | Command without gvfs |
+|---|---|
+| List | `ls ~/.local/share/Trash/files` |
+| Restore one item | read `Path=` in `~/.local/share/Trash/info/<name>.trashinfo` (URL-encoded, `%20` is a space), then `mv -n ~/.local/share/Trash/files/<name> "<that path>"` and remove the `.trashinfo` |
+| Empty (⚠️ permanent) | `find ~/.local/share/Trash/files ~/.local/share/Trash/info -mindepth 1 -delete` |
+
 ## Do not touch
 `/boot`, `/usr`, `/etc`, `/var/lib` (except through its tools), `/proc`, `/sys`, `/snap` directly, the running kernel, Timeshift snapshots, `~/.ssh`, `~/.gnupg`, `~/.local/share/keyrings`, cloud sync folders.
 

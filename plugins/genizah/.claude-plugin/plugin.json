@@ -1,7 +1,7 @@
 {
   "name": "genizah",
   "displayName": "Genizah",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Free up disk space on Mac, Windows or Linux without losing what matters. Looks first, asks before anything personal, sends it to the Trash, and warns before anything important.",
   "author": {
     "name": "Twistor Labs",
